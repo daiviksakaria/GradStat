@@ -1,0 +1,61 @@
+.gslogo{
+    display: flex;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -790px;
+}
+
+.thirdparty--container {
+    background: #ffff66;
+    background: -webkit-linear-gradient(bottom,  #9933ff,  	 #5900b3);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;  
+    min-height: 100vh;   
+    opacity: 0.9;
+    font-family: "arial";
+    overflow: hidden;   
+
+}
+/*.playground{
+    background-color: #FFFFFF;
+    margin-left: 30vw;
+    /*margin:30vw;
+}*/
+
+.thirdparty--options--container {
+    margin-left: 800px;
+    margin-top: 25px;   
+    margin-bottom: 25px;   
+    
+    color: black;
+    font-family: "Arial";
+    font-size: 18px;
+}
+
+.thirdparty--options {
+
+   /*justify-content: center;
+    */text-align: center;
+    margin: 0 5px;
+
+}
+
+.thirdparty--options:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.thirdparty--logoutbold{
+    font-weight: bold;
+    margin-left: -17%
+}
+.thirdparty--nohover:hover{
+    background-color: #00267C;
+    cursor: default;
+    font-weight: bold;
+    font-size: 18px;
+}

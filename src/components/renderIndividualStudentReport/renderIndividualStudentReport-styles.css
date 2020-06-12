@@ -1,0 +1,38 @@
+.main-container {
+    margin-left: 200px;
+}
+
+.flex-container {
+    display: flex;
+    background-color:-webkit-linear-gradient(bottom, #ffff66, #ffff99);
+    align-items: center;
+    min-width:  60vw;
+    font-weight: bold;
+}
+
+.flex-container > div {
+    background-color:-webkit-linear-gradient(bottom, #ffff66, #ffff99);
+    margin: 0vw;
+    margin-bottom: 2vh;
+    /*padding: 20px;*/
+    /*font-size: 30px;*/
+}
+.all-rounded {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.spacer {
+    display: block;
+}
+
+#progress-bar {
+    width: 12vw;
+    background: #cccccc;
+    position: relative;
+    height: 4vh;
+    border: black;
+}
+
+

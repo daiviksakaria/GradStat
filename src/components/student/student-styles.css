@@ -1,0 +1,102 @@
+.gslogo{
+    display: flex;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -790px;
+}
+
+.student--container {
+
+    background: #ffff66;
+    background: -webkit-linear-gradient(bottom,  #9933ff,  	 #5900b3);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;  
+    min-height: 100vh;   
+    opacity: 0.9;
+    font-family: "arial";
+    overflow: hidden;   
+
+}
+/*.playground{
+    background-color: #FFFFFF;
+    margin-left: 30vw;
+    /*margin:30vw;
+}*/
+
+.student--options--container {
+    margin-left: 800px;
+    margin-top: 25px;   
+    margin-bottom: 25px;   
+    
+    color:black;
+    font-family: "Arial";
+    font-size: 18px;
+
+}
+
+.student--options {
+    /*justify-content: center;
+    */text-align: center;
+    margin: 0 5px;
+
+}
+
+.student--options:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.student--logoutbold{
+    font-weight: bold;
+    margin-left: -90px
+}
+
+.student--nohover{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 560px;
+    font-size: 20px;
+}
+.student--nohover--icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.student--nohover:hover{
+    /*background-color: #00267C;*/
+    cursor: pointer;
+    font-weight: bold;
+   /* font-size: 18px;*/
+
+}
+
+.student--logoutbold {
+    margin-left: -80px;
+}
+
+.student--view_individual_report--detail_component { 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 7 7 0;
+    margin: auto;
+    margin-top: 36px;
+    /*background-color:  #ffff80; /* #ffff66;*/
+    /* box-shadow: #D7D7D7 2px 8px 8px; */
+
+    background: #ffff66;
+    background: -webkit-linear-gradient(bottom, #ffff66, #ffff99);
+    color: #04378F;
+    font-size: 22px;
+    max-width: 80vw;
+    max-height: 200vw;
+    border-radius: 20px;
+    overflow-y: hidden;
+}

@@ -1,0 +1,108 @@
+.admin--set_custom_filter--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 7 7 0;
+    margin: auto;
+    /*background-color:  #ffff80; /* #ffff66;*/
+    /* box-shadow: #D7D7D7 2px 8px 8px; */
+
+    background: #ffff66;
+    background: -webkit-linear-gradient(bottom, #ffff66, #ffff99);
+    color: #04378F;
+    font-size: 22px;
+    max-width: 80vw;
+    max-height: 200vw;
+    border-radius: 20px;
+    overflow-y: hidden;
+}
+
+.admin--set_custom_filter--CPI {
+    margin-bottom: 12vh;
+    display: flex;
+    justify-content: baseline;
+}
+
+.admin--set_custom_filter--CPI--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin--set_custom_filter--CPI--input {
+    height: fit-content;
+}
+
+.admin--set_custom_filter--batch {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    display: flex;
+}
+/*.admin--set_custom_filter--wrapper{*/
+    /*text-align: right;*/
+/*}*/
+.admin--set_custom_filter--submitbutton{
+    cursor: pointer;
+    background-color:  #333333;
+    color: white;
+    border-radius: 47px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left :17px;
+    padding-right :17px;   
+    
+    margin-left: 146px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+   
+    font-size: 20px;
+    border: #707070 1px;
+
+}
+.admin--set_custom_filter--submitbutton:hover{
+    font-size: 21px;
+    background-color: white;
+    color: black;
+}
+.admin--set_custom_filter--selectedcourses{
+    margin-left: 177px;
+    margin-top: -85px;
+    list-style-type: none;
+    font-size:20px;
+}
+
+.admin--courses{
+    display: flex;
+}
+
+.admin--set_custom_filter--detail_component {
+    display: flex;
+    justify-content: center;
+    flex: 7 7 0;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background: -webkit-linear-gradient(bottom, #ffff66, #ffff99);
+    /*box-shadow: #D7D7D7 2px 8px 8px;*/
+    border-radius: 20px;
+    color: #04378F;
+    font-size: 22px;
+    max-width: 80vw;
+    max-height: 90vw;
+    overflow-y: hidden;
+}
+.denied{
+    color:red;
+    font-weight: bold;
+    /* text-transform: capitalize;
+  */ 
+    /*position: fixed;
+    
+    margin-top: -6.5%;*/
+}
+
+/*.error{
+    position: fixed;
+    margin-top: 680px;
+}*/

@@ -1,0 +1,97 @@
+.gslogo{
+    display: flex;
+    position: absolute;    
+    margin-top: -50px;
+    margin-left: -5px;
+    
+}
+
+.admin--container {
+    
+    background: #ffff66;
+    background: -webkit-linear-gradient(bottom,  #9933ff,  	 #5900b3);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;  
+    min-height: 100vh;   
+    opacity: 0.9;
+    font-family: "arial";
+    overflow: hidden;   
+}
+/*.playground{
+    background-color: #FFFFFF;
+    margin-left: 30vw;
+    /*margin:30vw;
+}*/
+
+.admin--options--container {
+    
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 25px;   
+    margin-bottom: 25px;   
+    
+    color:black;
+    font-family: "Arial";
+    font-size: 18px;
+
+
+}
+
+.admin--options {
+   
+    /*justify-content: center;
+    */text-align: center;
+    margin: 0 5px;
+   
+}
+
+.admin--options:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.admin--logoutbold{
+    font-weight: bold;
+    margin-left: -15%;
+    /*text-decoration: underline;*/
+}
+
+/*.admin--button{
+    background-color: #5900b3;
+    display: flex;
+    width: 0px;
+
+    font-size: 20px;
+}
+
+.admin--button:hover{
+    background-color: #5900b3;
+    font-size: 20px;
+}*/
+/*
+.admin--nohover{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 580px;
+    font-size: 20px;
+}
+.admin--nohover--icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+}
+
+.admin--nohover:hover{
+    
+    cursor: pointer;
+    font-weight: bold;
+   
+
+}*/
