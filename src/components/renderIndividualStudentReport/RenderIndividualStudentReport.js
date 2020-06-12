@@ -129,11 +129,11 @@ class RenderIndividualStudentReport extends PureComponent {
                 </div> :
                 
                 <div className={'flex-container'}>
-                  <div style={{flex: '3', marginRight: '80px'}}>Below are the courses suggestion to fullfill credit requirements : 
+                  <div style={{flex: '3', marginRight: '80px' }}>Below are the courses suggestion to fullfill credit requirements : 
                     <br/>
                     {(studentDetail['courses'])}
                   </div>
-                </div>}
+                </div>} 
                 
             </div>
 
