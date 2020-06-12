@@ -600,7 +600,7 @@ export const dataOfStudents = {
         'total credits': 78,
 //Core Credit:40,
         'ict elective': 13,
-        'open elective': 6,
+        'open elective': 6 ,
         'tech elective': 18,
         'cpi': 5.0,
         'active backlog': true,
